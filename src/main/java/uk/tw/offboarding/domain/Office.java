@@ -10,11 +10,11 @@ public enum Office {
     CHENNAI(7, "Chennai", Country.INDIA, Status.ACTIVE),
     COIMBATORE(8, "Coimbatore", Country.INDIA, Status.ACTIVE),
     NOIDA(9, "Noida", Country.INDIA, Status.CLOSED),
-    HAMBURG(8, "Hamburg", Country.GERMANY, Status.ACTIVE),
-    BEIJING(9, "Beijing", Country.CHINA, Status.ACTIVE),
-    WUHAN(10, "Wuhan", Country.CHINA, Status.ACTIVE),
-    SAO_PAULO(11, "Sao Paulo", Country.BRAZIL, Status.ACTIVE),
-    TORONTO(12, "Toronto", Country.CANADA, Status.CLOSED)
+    HAMBURG(10, "Hamburg", Country.GERMANY, Status.ACTIVE),
+    BEIJING(11, "Beijing", Country.CHINA, Status.ACTIVE),
+    WUHAN(12, "Wuhan", Country.CHINA, Status.ACTIVE),
+    SAO_PAULO(13, "Sao Paulo", Country.BRAZIL, Status.ACTIVE),
+    TORONTO(14, "Toronto", Country.CANADA, Status.CLOSED)
     ;
     private int ID;
     private String name;
